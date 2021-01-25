@@ -5,6 +5,8 @@
  - Add logic to harvest client-side user/conversation lookups (less on the fly lookups)
  - Enhance the "log" action with more robust functionality (ex. log to a database)
  - Improve error control
+ - Add call/meeting controls
+ - Add file sharing controls
 
 ### Long-term
  - Add documentation/scripts around creating a TeamsFirewall service in Windows/Linux
