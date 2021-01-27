@@ -1,7 +1,7 @@
 # TeamsFirewall
 The open-source ethical firewall for Microsoft Teams built on [mitmproxy](https://github.com/mitmproxy/mitmproxy) and written in Python.
 
-TeamsFirewall sits in between the Teams client and the Teams service learning the environment by creating a cache of the users/conversations it observes without requiring any access to the tenant. This deep context (**user -> conversation -> event**) gives you the ability to create extremely granular rules for your Teams environment. You can create a rule so broad that it blocks all external communication or very specific rule that prevents message edits between user A and user B.
+TeamsFirewall sits inbetween the Teams client and the Teams service learning the environment by creating a cache of the users/conversations it observes without requiring any access to the tenant. This deep context (**user -> conversation -> event**) gives you the ability to create extremely granular rules for your Teams environment. You can create a rule so broad that it blocks all external communication or very specific rule that prevents message edits between user A and user B.
 
 Please refer to the [TODO](https://github.com/markdepalma/TeamsFirewall/blob/main/TODO.md) for upcoming features.
 
